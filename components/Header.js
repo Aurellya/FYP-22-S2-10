@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { GrProjects } from "react-icons/gr";
 
 const Header = () => {
   const [activeLink, updateActiveLink] = useState("Home");
@@ -9,7 +10,12 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid container">
           <Link href="/">
-            <a className="navbar-brand fw-bold">FYP-22-S2-10</a>
+            <a className="navbar-brand fw-bold d-flex align-items-center">
+              <span>
+                <GrProjects className="mb-1" />
+              </span>
+              &nbsp;&nbsp;FYP-22-S2-10
+            </a>
           </Link>
 
           <button

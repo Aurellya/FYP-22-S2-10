@@ -7,11 +7,11 @@ cover_image: "/images/posts/img-meeting-minutes.jpg"
 
 The following are our meeting minutes for week 1:
 
-## Meeting minutes with Supervisor (16/4/22)
+## Meeting minutes with Supervisor
 
 <br/>
 
-#### Meeting 1<br/>
+#### Meeting 1 (16/4/22)<br/>
 
 **Meeting Objective**: Introduction of group members to supervisor and presentation of literature review questions, followed by a review of functionalities identified and project plan. Lastly, documentation requirements.
 
@@ -25,11 +25,11 @@ The following are our meeting minutes for week 1:
 
 <br/><br/>
 
-### Group Meeting Minutes (15/4/22)
+### Group Meeting Minutes
 
 <br/>
 
-#### Meeting 1
+#### Meeting 1 (15/4/22)
 
 - Splitting of literature review questions among group members
 - Identifying user stories (edit, add, search, delete on the admin side)
