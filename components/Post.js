@@ -4,7 +4,12 @@ import Link from "next/dist/client/link";
 const Post = ({ post }) => {
   return (
     <div className="card mb-5" style={{ width: "360px" }}>
-      <img src={post.frontmatter.cover_image} alt="" className="card-img-top" />
+      <img
+        src={post.frontmatter.cover_image}
+        alt=""
+        className="card-img-top"
+        style={{ height: "200px" }}
+      />
       <div className="card-footer">
         <small className="text-muted">Posted on {post.frontmatter.date}</small>
       </div>

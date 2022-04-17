@@ -1,7 +1,7 @@
 ---
-title: "Meeting Minutes 1"
-date: "April 17, 2022"
-excerpt: "brief summary on the content of the this blog. whatever...."
+title: "Group Meeting Minutes 1"
+date: "April 15, 2022"
+excerpt: "The summary of the group meeting on April 15th 2022"
 cover_image: "/images/posts/img-meeting-minutes.jpg"
 ---
 

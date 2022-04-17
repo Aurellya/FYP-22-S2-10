@@ -3,7 +3,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
-import Link from "next/dist/client/link";
 
 const PostPage = ({
   frontmatter: { title, date, cover_image },
@@ -14,8 +13,7 @@ const PostPage = ({
     <div className="pt-5 pb-5 bg-light container">
       <h3>{title}</h3>
       <p>Posted on {date}</p>
-      <img src={cover_image} alt="" className="w-50" />
-      <br />
+      {/* <img src={cover_image} alt="" className="w-50" /> */}
       <br />
       <div>
         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
