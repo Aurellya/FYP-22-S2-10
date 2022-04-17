@@ -1,6 +1,6 @@
 ---
 title: "Group Profile"
-date: "April 17, 2022"
+date: "April 9, 2022"
 excerpt: "The Information about out team member profile"
 cover_image: "/images/posts/intro.jpg"
 ---
