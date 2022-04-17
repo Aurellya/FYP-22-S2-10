@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color:#F8F9FA;
 }
 
 a {
@@ -13,4 +14,44 @@ a {
 
 * {
   box-sizing: border-box;
+  
 }
+
+.home-bg{
+  background-image: url("/images/background/home-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.btn-submit-contact{
+  width: 100%!important;
+  background: #9AA8AB!important;
+  color: #062228!important;
+  font-size: 17px!important;
+}
+
+.btn-submit-contact:hover,.btn-read-more:hover{
+  opacity: .8;
+  transition: .8s;
+}
+
+.btn-read-more{
+  width: 100%!important;
+  background: #344E55!important;
+  color: #F8F9FA!important;
+  opacity: .6;
+}
+
+input, textarea{
+  background: #F8F9FA!important;
+}
+
+/* .title-bg{
+  background-image: url("/images/background/home-bg.jpg"); 
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+} */

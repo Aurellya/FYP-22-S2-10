@@ -1,7 +1,22 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import { useEffect } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
+
+  return (
+    <>
+      <Header />
+      <main className="bg-light">
+        <Component {...pageProps} />
+      </main>
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
