@@ -24,7 +24,7 @@ const PostPage = ({
       <div>
         <div
           dangerouslySetInnerHTML={{ __html: marked(content) }}
-          style={{ overflow: "scroll" }}
+          style={{ overflow: "auto" }}
         ></div>
       </div>
     </div>

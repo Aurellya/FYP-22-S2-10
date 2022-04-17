@@ -13,9 +13,6 @@ The following are our meeting minutes for week 1:
 
 #### Meeting 1<br/>
 
-**Project Name**: CSIT-22-S2-13: Dental Health Record Management<br/>
-**Group Name**: FYP-22-S2-10<br/>
-
 **Meeting Objective**: Introduction of group members to supervisor and presentation of literature review questions, followed by a review of functionalities identified and project plan. Lastly, documentation requirements.
 
 | S/No | Item                                    | Action Item                                                                                                                                        | Due Date |
@@ -32,7 +29,7 @@ The following are our meeting minutes for week 1:
 
 <br/>
 
-#### Meeting minutes 1
+#### Meeting 1
 
 - Splitting of literature review questions among group members
 - Identifying user stories (edit, add, search, delete on the admin side)
