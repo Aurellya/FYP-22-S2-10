@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -9,6 +9,12 @@ const PostPage = ({
   slug,
   content,
 }) => {
+  useEffect(() => {
+    // const children = document.querySelectorAll("div > table");
+    // console.log(children);
+    console.log("hi");
+  }, []);
+
   return (
     <div className="pt-5 pb-5 bg-light container">
       <h3>{title}</h3>
@@ -16,7 +22,10 @@ const PostPage = ({
       {/* <img src={cover_image} alt="" className="w-50" /> */}
       <br />
       <div>
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        <div
+          dangerouslySetInnerHTML={{ __html: marked(content) }}
+          style={{ overflow: "scroll" }}
+        ></div>
       </div>
     </div>
   );

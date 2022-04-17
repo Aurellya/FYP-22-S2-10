@@ -68,3 +68,12 @@ th{
   background-color: #344E55;
   color: #F8F9FA;
 }
+
+.special_scroll{
+  overflow: hidden;
+}
+
+/* div, table{
+  overflow: hidden!important;
+  display: flex!important;
+} */
