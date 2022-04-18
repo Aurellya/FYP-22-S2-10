@@ -25,6 +25,21 @@ a {
   width: 100%;
 }
 
+.header-bg{
+  background-image: url("/images/background/home-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.header-bg > h1{
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #062228;
+  font-size: 50px; 
+  text-shadow: 2px 2px #062228;
+}
+
 .btn-submit-contact{
   width: 100%!important;
   background: #9AA8AB!important;
