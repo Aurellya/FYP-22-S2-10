@@ -16,9 +16,11 @@ const Blog = ({ posts }) => {
 
       <div className="py-5 container">
         <h3 className="text-center">Blog</h3>
-        <div className="mt-5 d-flex flex-wrap justify-content-around">
+        <div className="mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           {posts.map((post, index) => (
-            <Post post={post} key={index} />
+            <div className="col px-4" key={index}>
+              <Post post={post} />
+            </div>
           ))}
         </div>
       </div>

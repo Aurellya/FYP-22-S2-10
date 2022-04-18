@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 
 const Post = ({ post }) => {
   return (
-    <div className="card mb-5" style={{ width: "360px" }}>
+    <div className="card mb-5">
       <img
         src={post.frontmatter.cover_image}
         alt=""

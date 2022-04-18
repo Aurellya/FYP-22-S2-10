@@ -44,7 +44,7 @@ const TeamProfile = () => {
       </Head>
       <div className="py-5 container">
         <h3 className="text-center">Meet The Team</h3>
-        <div className="mt-5 row row-scols-1 row-cols-md-3">
+        <div className="mt-5 row row-s cols-1 row-cols-md-3">
           {team_profile.map((profile, index) => (
             <div className="col" key={index}>
               <Card profile={profile} />
