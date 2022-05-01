@@ -15,6 +15,14 @@ The following are our meeting minutes for week 1:
 
 **Meeting Objective**: Introduction of group members to supervisor and presentation of literature review questions, followed by a review of functionalities identified and project plan. Lastly, documentation requirements.
 
+- Introduction of group members to supervisor
+- Presentation of literature review questions
+- Review of functionalities identified
+- Review project plan
+- Walkthrough of documentation requirements
+
+<br/>
+
 | S/No | Item                                    | Action Item                                                                                                                                        | Due Date     |
 | ---- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 1    | Research summary                        | Summarize all the functions similar dental healthcare records apps have and note down the ones we decide its good for our project and want to have | Next meeting |
