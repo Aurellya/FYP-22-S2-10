@@ -18,7 +18,7 @@ The following are our meeting minutes for week 3:
 - Went through Project Requirement Documentation, correcting mistakes and clarifying what is required of us in the Documentation.
 - Discussed about the features that would catch the attention of a potential user.
 
-<br/><br/>
+<br/>
 
 ### Group Meeting Minutes
 
