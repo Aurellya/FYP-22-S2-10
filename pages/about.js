@@ -11,7 +11,7 @@ const about = () => {
       <div className="py-5 container">
         <h3 className="text-center">About Us</h3>
         <div
-          className="mt-4 pt-4 pb-2 text-white"
+          className="mt-4 pt-4 pb-2 text-white px-3"
           style={{ background: "#344E55" }}
         >
           <p className="text-center mx-auto" style={{ maxWidth: "700px" }}>
