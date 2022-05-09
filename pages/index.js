@@ -48,7 +48,7 @@ export default function Home() {
               <div>
                 <h4 className="fw-bold">Referral Tracking</h4>
                 <p>
-                  Track patients' referrals through the process for an
+                  Track patients&apos; referrals through the process for an
                   incentive-based approach.
                 </p>
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 <h4 className="fw-bold">Effective Search</h4>
                 <p>
                   Enable patients to search dental clinics easily based on
-                  patient's location or preferred services.
+                  patient&apos;s location or preferred services.
                 </p>
               </div>
             </div>
