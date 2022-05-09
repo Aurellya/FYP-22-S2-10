@@ -1,12 +1,12 @@
 import Head from "next/head";
 import {
   BiBellMinus,
-  BiBook,
-  BiBrightness,
+  BiCog,
   BiChevronDownCircle,
   BiDonateHeart,
+  BiLike,
   BiLockAlt,
-  BiMap,
+  BiSearchAlt,
   BiMessageMinus,
 } from "react-icons/bi";
 
@@ -31,34 +31,13 @@ export default function Home() {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 container mx-auto">
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiBellMinus style={{ fontSize: "20px" }} />
+                <BiMessageMinus style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Live Chat</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
-                </p>
-              </div>
-            </div>
-            <div className="col d-flex align-items-start">
-              <div className="text-muted flex-shrink-0 me-3">
-                <BiBook style={{ fontSize: "20px" }} />
-              </div>
-              <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
-                <p>
-                  Paragraph of text beneath the heading to explain the heading.
-                </p>
-              </div>
-            </div>
-            <div className="col d-flex align-items-start">
-              <div className="text-muted flex-shrink-0 me-3">
-                <BiBrightness style={{ fontSize: "20px" }} />
-              </div>
-              <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
-                <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  Patient can interact with the Clinic easily using the chatbot
+                  which responses can be customized.
                 </p>
               </div>
             </div>
@@ -67,9 +46,34 @@ export default function Home() {
                 <BiChevronDownCircle style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Referral Tracking</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  Track patients' referrals through the process for an
+                  incentive-based approach.
+                </p>
+              </div>
+            </div>
+            <div className="col d-flex align-items-start">
+              <div className="text-muted flex-shrink-0 me-3">
+                <BiSearchAlt style={{ fontSize: "20px" }} />
+              </div>
+              <div>
+                <h4 className="fw-bold">Effective Search</h4>
+                <p>
+                  Enable patients to search dental clinics easily based on
+                  patient's location or preferred services.
+                </p>
+              </div>
+            </div>
+            <div className="col d-flex align-items-start">
+              <div className="text-muted flex-shrink-0 me-3">
+                <BiCog style={{ fontSize: "20px" }} />
+              </div>
+              <div>
+                <h4 className="fw-bold">Automation</h4>
+                <p>
+                  Automate paper-based manual registration and administration
+                  process.
                 </p>
               </div>
             </div>
@@ -78,9 +82,10 @@ export default function Home() {
                 <BiDonateHeart style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Ratings &#38; Reviews</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  Easily Discovered and Measure Satisfaction through ratings and
+                  reviews given by customers.
                 </p>
               </div>
             </div>
@@ -89,31 +94,34 @@ export default function Home() {
                 <BiLockAlt style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Secure</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  Protecting your data at every layer is fundemental to how our
+                  web application works.
                 </p>
               </div>
             </div>
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiMap style={{ fontSize: "20px" }} />
+                <BiLike style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Easy-to-use</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  With the simple and great design of our web application, it
+                  can be used easily by everyone.
                 </p>
               </div>
             </div>
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiMessageMinus style={{ fontSize: "20px" }} />
+                <BiBellMinus style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold mb-0">Featured title</h4>
+                <h4 className="fw-bold">Reminders</h4>
                 <p>
-                  Paragraph of text beneath the heading to explain the heading.
+                  Automatically send appointment reminders to patients based on
+                  the appointment schedule.
                 </p>
               </div>
             </div>

@@ -43,17 +43,17 @@ const TeamProfile = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="header-bg text-light">
-        <h1 className="text-center">Meet The Team</h1>
-        <h1 className="text-center">- Team GABJV -</h1>
-      </div>
-      <div className="pb-5 pt-3 container">
-        <div className="mt-5 row row-s cols-1 row-cols-md-3">
-          {team_profile.map((profile, index) => (
-            <div className="col px-4" key={index}>
-              <Card profile={profile} />
-            </div>
-          ))}
+      <div className="py-5">
+        <h3 className="text-center">Meet The Team</h3>
+        {/* <h3 className="text-center">- Team GABJV -</h3> */}
+        <div className="pb-5 container">
+          <div className="mt-5 row row-s cols-1 row-cols-md-3">
+            {team_profile.map((profile, index) => (
+              <div className="col px-4" key={index}>
+                <Card profile={profile} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
