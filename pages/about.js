@@ -10,11 +10,15 @@ const about = () => {
       </Head>
       <div className="py-5 container">
         <h3 className="text-center">About Us</h3>
-        <div
-          className="mt-4 pt-4 pb-2 text-white px-3"
-          style={{ background: "#344E55" }}
-        >
-          <p className="text-center mx-auto" style={{ maxWidth: "700px" }}>
+        <div className="mt-4 pt-4 pb-2 px-3">
+          <div className="text-center mb-4">
+            <img
+              src="/images/about/uni_logo.png"
+              alt="dental clinic management record"
+            />
+          </div>
+          <hr />
+          <p className="text-center mx-auto mt-5" style={{ maxWidth: "700px" }}>
             As a team consisting of SIM-UOW final-year students, we are assigned
             a project to develop a web-application-based Dental Health Record
             Management System. This tool will help organize all patients&apos;
@@ -33,7 +37,7 @@ const about = () => {
             will be consolidated and be under the clinic the customer submitted
             under.
           </p>
-          <p className="text-center mx-auto" style={{ maxWidth: "700px" }}>
+          <p className="text-center mx-auto mb-5" style={{ maxWidth: "700px" }}>
             With this system, it will increase the productivity of our users as
             all relevant and useful information of our clients&apos; customers
             will be collated into our database to make it easier for the users
@@ -42,8 +46,17 @@ const about = () => {
             show a list of our clients&apos; clinics with their specialization
             and the distance from their location to the clinic.
           </p>
+          <hr />
         </div>
       </div>
+      {/* <div className="container">
+        <h3 className="text-center">Preview</h3>
+        <div className="mt-4 pt-4 pb-2 px-3">
+          <div>
+            <img src="" alt="dental clinic management record" />
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };
