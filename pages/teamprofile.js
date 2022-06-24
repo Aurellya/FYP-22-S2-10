@@ -45,6 +45,7 @@ const TeamProfile = () => {
 
       <div className="py-5">
         <h3 className="text-center">Meet The Team</h3>
+        <h4 className="text-center">FYP-22-S2-10</h4>
         {/* <h3 className="text-center">- Team GABJV -</h3> */}
         <div className="pb-5 container">
           <div className="mt-5 row row-s cols-1 row-cols-md-3">
