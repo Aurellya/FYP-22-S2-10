@@ -14,7 +14,7 @@ const Header = () => {
               <span>
                 <GrProjects className="mb-1" />
               </span>
-              &nbsp;&nbsp;FYP-22-S2-10
+              &nbsp;&nbsp;DHRecord
             </a>
           </Link>
 
