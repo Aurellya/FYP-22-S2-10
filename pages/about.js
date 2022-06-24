@@ -24,8 +24,9 @@ const about = () => {
             Management System. This tool will help organize all patients&apos;
             records for our clients which are dental healthcare providers and
             make it efficient for users of our software to search for required
-            information of their patient.
+            information of their patient. We named our product:
           </p>
+          <h4 className="text-center mb-3">DHRecord</h4>
           <p className="text-center mx-auto" style={{ maxWidth: "700px" }}>
             The project&apos;s objective is to make our service unique and
             outstanding as compared to the other web apps in the market whereby
