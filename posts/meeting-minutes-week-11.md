@@ -33,3 +33,7 @@ The following are our meeting minutes for week 11 - [18/06/22 - 24/06/22]:
 - Editing of the User Manual
 - Editing of the Presentation Slides
 - Doing the Prototype
+
+#### Meeting 2 (24/6/22)
+
+- Final edits to slides and prototype before the first presentation and a demo presentation among ourselves
