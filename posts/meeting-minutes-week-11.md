@@ -1,6 +1,6 @@
 ---
 title: "Meeting Minutes Week 11"
-date: "June 25, 2022"
+date: "June 24, 2022"
 excerpt: "The summary of the meetings that happened during Week 11"
 cover_image: "/images/posts/img-meeting-minutes.jpg"
 ---
