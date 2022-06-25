@@ -13,8 +13,14 @@ const about = () => {
         <div className="mt-4 pt-4 pb-2 px-3">
           <div className="text-center mb-4">
             <img
-              src="/images/about/uni_logo.png"
-              alt="dental clinic management record"
+              className="mx-2"
+              src="/images/about/uow_logo.png"
+              alt="uow logo"
+            />
+            <img
+              className="mx-2"
+              src="/images/about/sim_logo.png"
+              alt="sim ge logo"
             />
           </div>
           <hr />
