@@ -17,4 +17,8 @@ The following are our meeting minutes for week 13 - [02/07/22 - 08/07/22]:
 
 ### Group Meeting Minutes
 
+<br/>
+
+#### Meeting 1 (07/7/22)
+
 - Check up on each other’s progress and review what needs to be completed by the end of the week
