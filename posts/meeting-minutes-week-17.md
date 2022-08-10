@@ -22,7 +22,7 @@ The following are our meeting minutes for week 17 - [30/07/22 - 05/08/22]:
 
 <br/>
 
-#### Meeting 1 (23/7/22)
+#### Meeting 1 (04/8/22)
 
 - Revisit and Discussing Project Scope
 - Reviewing ‘Treatment Planning/History’ feature
