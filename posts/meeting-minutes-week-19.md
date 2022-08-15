@@ -11,7 +11,7 @@ The following are our meeting minutes for week 19 - [13/08/22 - 19/08/22]:
 
 <br/>
 
-#### Meeting 1 (23/7/22)
+#### Meeting 1 (13/8/22)
 
 - Demonstrate Fully integrated, functional product in the right platform
 - Review Source Code
