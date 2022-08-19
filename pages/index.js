@@ -7,7 +7,8 @@ import {
   BiLike,
   BiLockAlt,
   BiSearchAlt,
-  BiMessageMinus,
+  // BiMessageMinus,
+  BiPackage,
 } from "react-icons/bi";
 
 export default function Home() {
@@ -31,13 +32,13 @@ export default function Home() {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 container mx-auto">
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiMessageMinus style={{ fontSize: "20px" }} />
+                <BiSearchAlt style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold">Live Chat</h4>
+                <h4 className="fw-bold">Effective Search</h4>
                 <p>
-                  Patient can interact with the Clinic easily using the chatbot
-                  which responses can be customized.
+                  Enable patients to search dental clinics easily based on
+                  patient&apos;s location or preferred services.
                 </p>
               </div>
             </div>
@@ -55,13 +56,13 @@ export default function Home() {
             </div>
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiSearchAlt style={{ fontSize: "20px" }} />
+                <BiLike style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold">Effective Search</h4>
+                <h4 className="fw-bold">Easy-to-use</h4>
                 <p>
-                  Enable patients to search dental clinics easily based on
-                  patient&apos;s location or preferred services.
+                  With the simple and great design of our web application, it
+                  can be used easily by everyone.
                 </p>
               </div>
             </div>
@@ -102,15 +103,12 @@ export default function Home() {
               </div>
             </div>
             <div className="col d-flex align-items-start">
-              <div className="text-muted flex-shrink-0 me-3">
-                <BiLike style={{ fontSize: "20px" }} />
+              <div className="text-muted flex-shrink-0 me-3 pt-1">
+                <BiPackage style={{ fontSize: "22px" }} />
               </div>
               <div>
-                <h4 className="fw-bold">Easy-to-use</h4>
-                <p>
-                  With the simple and great design of our web application, it
-                  can be used easily by everyone.
-                </p>
+                <h4 className="fw-bold">Inventory Management</h4>
+                <p>Clinic can easily manage and monitor their inventory.</p>
               </div>
             </div>
             <div className="col d-flex align-items-start">
