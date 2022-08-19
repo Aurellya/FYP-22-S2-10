@@ -16,6 +16,13 @@ The following are our meeting minutes for week 19 - [13/08/22 - 19/08/22]:
 - Demonstrate Fully integrated, functional product in the right platform
 - Review Source Code
 
+#### Meeting 2 (20/8/22)
+
+- Demonstrate Fully integrated, functional product in the right platform
+- Review Source Code
+- Review Final Documents
+- Review Presentation Slides
+
 <br/>
 
 ### Group Meeting Minutes
