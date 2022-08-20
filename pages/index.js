@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  BiBellMinus,
+  // BiBellMinus,
   BiCog,
   BiChevronDownCircle,
   BiDonateHeart,
@@ -8,6 +8,7 @@ import {
   BiLockAlt,
   BiSearchAlt,
   // BiMessageMinus,
+  BiCalendar,
   BiPackage,
 } from "react-icons/bi";
 
@@ -113,13 +114,13 @@ export default function Home() {
             </div>
             <div className="col d-flex align-items-start">
               <div className="text-muted flex-shrink-0 me-3">
-                <BiBellMinus style={{ fontSize: "20px" }} />
+                <BiCalendar style={{ fontSize: "20px" }} />
               </div>
               <div>
-                <h4 className="fw-bold">Reminders</h4>
+                <h4 className="fw-bold">Calendar</h4>
                 <p>
-                  Automatically send appointment reminders to patients based on
-                  the appointment schedule.
+                  Easily track the appoinment schedule that has been made in a
+                  calendar format.
                 </p>
               </div>
             </div>
